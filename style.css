@@ -47,29 +47,6 @@ html,body {
      font-size: 30px;
 }
 
-.column-container {
-  width: 100%;
-  position: absolute;
-  bottom: 20%;
-}
-
-.section2 {
-    background-color: #fcfcfc;
-}
-
-.section3 {
-    background-color: #fcfcfc;
-}
-
-.section-container {
-  padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    padding-top: 10%;
-}
-
 h1 {
   text-transform: uppercase;
 }
@@ -83,18 +60,13 @@ a {
   text-transform: none;
 }
 
-/*Section 2 and 3 specific styles*/
-
-.images img {
-  width: 30%;
-  margin: 1%;
+.cast h2 {
+  margin-bottom: 20px;
 }
 
-.images {
-  margin: 1% auto 10% auto;
-  width: 90%;
+.cast p {
+  margin-top: 20px;
 }
-
 /*Responsive Styles*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
