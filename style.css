@@ -78,6 +78,11 @@ a {
   color: white;
 }
 
+.code {
+  color:tomato;
+  text-transform: none;
+}
+
 /*Section 2 and 3 specific styles*/
 
 .images img {
