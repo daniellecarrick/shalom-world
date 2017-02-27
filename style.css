@@ -1,6 +1,6 @@
 html,body {
   height:100%;
-  font-family: 'Nixie One', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .vertical-center {
@@ -70,27 +70,8 @@ html,body {
     padding-top: 10%;
 }
 
-.title {
-  margin: 0;
-  padding: 3% 5% 5% 5%;
-  background-color: #172027;
-  margin-bottom: 6%;
-}
-
-.title h1 {
-  margin-bottom: 2%;
-}
-
-h1, h2, h3 {
-  text-align: center;
-  line-height: 1;
-}
-
 h1 {
-  font-size: 3em;
-  font-family: 'Heebo', sans-serif;
-  margin-bottom: 0px;
-  margin-top: 1%;
+  text-transform: uppercase;
 }
 
 a {
