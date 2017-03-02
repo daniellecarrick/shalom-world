@@ -26,6 +26,10 @@ html,body {
   margin-bottom: 4%;
 }
 
+a {
+  color: tomato;
+}
+
 .intro h3 {
   font-size: 1.5em;
 }
@@ -51,17 +55,28 @@ h1 {
   text-transform: uppercase;
 }
 
-a {
-  color: white;
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  color: tomato;
+  margin-bottom: 50px;
+}
+
+.description {
+  margin-bottom: 60px;
+  font-size: 18px;
 }
 
 .code {
   color:tomato;
   text-transform: none;
-}
-
-.cast h2 {
-  margin-bottom: 20px;
 }
 
 .cast p {
@@ -70,11 +85,6 @@ a {
 /*Responsive Styles*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /*Make the fonts smaller*/
-  body {
-    font-size: 1em;
-    color: red;
-  }
 
   /*Make dropdown links appear inline*/
   ul {
@@ -92,24 +102,6 @@ a {
 
   .images img {
     width: 45%;
-  }
-
-  .column-3 {
-    float: none;
-    margin: 0 auto 3% auto;
-    width: 70%;
-  }
-
-  .column-container {
-    position: inherit;
-  }
-
-  .number {
-    font-size: 11em;
-  }
-
-  .description {
-    font-size: 2em;
   }
 
   .intro h3 {
